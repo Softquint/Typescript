@@ -52,3 +52,12 @@ function fnlet(inp){
 
 console.log(fnlet(20));
 console.log(fnlet(100));
+
+
+for(var i=0; i<10 ; i++){
+    (function(a){
+        setTimeout(function(){
+            console.log(a)
+    }, 100 * a)
+    }(i))
+}
