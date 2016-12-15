@@ -1,3 +1,4 @@
+"use strict";
 var Startup = (function () {
     function Startup() {
     }
