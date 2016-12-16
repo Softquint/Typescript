@@ -49,3 +49,20 @@ for (var i = 0; i < 10; i++) {
         }, 100 * a);
     }(i));
 }
+//Declaring array
+var list = ["a", 1, 3, 4, false];
+var mylist = [1, 2, 3, 4, 5];
+var x;
+x = ["sdfsasd", 6];
+var Color;
+(function (Color) {
+    Color[Color["Red"] = 0] = "Red";
+    Color[Color["Green"] = 1] = "Green";
+    Color[Color["Blue"] = 2] = "Blue";
+})(Color || (Color = {}));
+var color = Color.Red;
+console.log(color);
+//TypeCasting == Type Assertions
+var data = "My Work";
+var l = data.length;
+console.log(l);

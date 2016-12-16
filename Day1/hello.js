@@ -4,7 +4,7 @@ var Startup = (function () {
     }
     Startup.main = function (name) {
         console.log('Hello' + name);
-        console.log(name);
+        console.log('sdfsdsd' + name);
     };
     return Startup;
 }());
